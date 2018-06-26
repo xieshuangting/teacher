@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>青岛家教网</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="shortcut icon" type="image/ico" href="favicon.ico">
+	<!-- 移动设备 -->
+	<link rel="apple-touch-icon" href="favicon.ico">
+	<!-- 大小默认为57*57 iOS系统使用apple-touch-icon-percomposed则不会对图标默认圆角和高亮 -->
+	<link rel="apple-touch-icon-percomposed" sizes="72*72" href="favicon.ico">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<img src="qdjjlogo.gif" alt="青岛家教网">
+			<nav>
+				<a href="http://www.qdjj.net/member/register.asp">注册</a>
+				<a href="http://www.qdjj.net/login.asp">登录</a>
+				<a href="javascript:;">收藏本站</a>
+			</nav>
+		</header>
+		<div class="content">
+			<table class="parent-table">
+				<form action="">
+					<caption>新教员注册第二步</caption>
+					<tbody>
+						<tr>
+							<td class="register-msg" colspan="2">
+								<p>您的注册资料越详细就越有利于家长和学员检索，也就越容易获得家长的预约，所以请您务必如实详细地填写。其中红</p>
+								<p>色星号（<span class="light-red">*</span>）为必填。我们已对您的个人信息做保密处理，您的信息是安全的。</p>
+							    您选择的是<span class="light-red">大学生</span>身份,若有误请<a href="javascript:history.go(-1);" >返回</a>更改</td>
+						</tr>
+						<tr>
+							<td class="table-title2" colspan="2">
+								<h2>基本资料</h2>
+							</td>
+						</tr>
+						<tr>
+							<td width="136">
+								<span class="light-red" >*</span>真实姓名
+							</td>
+							<td>
+								<input type="text" name="" placeholder="请填写姓名" required="">
+								<p class="text-blue">
+								<span class="light-red">注意：</span>
+								姓名应与身份证完全一致，本网站将对你的姓名严格保密，只显示您的姓，如“张教员”。此部分将在认证时严格审查，一经填写不得修改，与证件不符者将不能通过认证！
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								身份证/护照：
+							</td>
+							<td>
+								<input type="text" name="" placeholder="请输入身份证或护照">
+								<p class="text-blue">
+									(此项将严格保密，不对外公开)
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td><span class="light-red">*</span>性别:
+							</td>
+							<td>
+								<select name="sex" id="" required="">
+									<option value="">请选择</option>
+									<option value="">女</option>
+									<option value="">男</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="light-red">*</span>出生年份：
+							</td>
+							<td>
+								<input type="date" name="birthday" required="">
+							</td>
+						</tr>
+						<tr>
+							<td class="table-title2" colspan="2">
+								<h2>联系方式</h2>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="light-red">*</span>
+								手机/小灵通
+							</td>
+							<td>
+								<input type="text" name="telephone">
+								<p class="text-blue">
+									最好留下多个联系方式，换号时请及时更新联系方式
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="light-red">*</span>
+								Email
+							</td>
+							<td>
+								<input type="email" name="email">
+								<p class="text-blue">
+									(为通知合适您的家教及找回密码，请认真填写)
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="table-title2" colspan="2">
+								<h2>家教信息</h2>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="light-red">*</span>
+								自我描述与</br>
+								特长展示：
+							</td>
+							<td>
+								<textarea name="good" cols="60" rows="6"></textarea>
+								<p class="text-blue">
+									全面展示你的实力和优势特长，增加你简历的含金量！例如：在比赛中得过什么重要奖项，获得过什么奖学金，取得什么样的高考成绩，有哪些能证明你能力的资格证书之类。 不得少于50字，不得超过500字。家长选择你的重要依据，请认真填写！
+								</p>
+							</td>
+						</tr>
+						<tr class="lessons-num">
+							<td>
+								<span class="light-red">*</span>
+								可辅导的科目</br>
+                               （不超过10项）：
+							</td>
+							<td>
+								<span class="light-red">教员在选择中考、高考、雅思、新概念等有难度的科目时应量力而行，最好有实际辅导经验。</span>
+
+								<table class="sub-table">
+									<tr>
+										<td>
+											<span class="text-strong">---小学---</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+                                             <input id="jobYuwen" name="job" type="checkbox" value="小学语文">
+                                             <label for="jobYuwen">小学语文</label>
+                                             <input id="jobShuxue" name="job" type="checkbox" value="小学数学">
+                                             <label for="jobShuxue">小学数学</label>
+                                             <input id="jobYingyu" name="job" type="checkbox" value="小学英语">
+                                             <label for="jobYingyu">小学英语</label> 
+                                             <input id="jobAoshu" name="job" type="checkbox" value="小学奥数">
+                                             <label for="jobAoshu">小学奥数</label>
+                                             <input id="jobXiaoxue" name="job" type="checkbox" value="小学全科">
+                                             <label for="jobXiaoxue">小学全科</label>                     
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 <span class="light-red">*</span> 可授课时间：
+							</td>
+							<td>
+							<input type="text" value="授课时间无限制">
+							<span class="text-blue">（请注意及时更新授课时间）</span>
+							</td>
+						</tr>
+					</tbody>
+					<tfoot>
+					<tr >
+						<td colspan="2" class="sumbit-table">
+						    <input type="submit" name="" value="提交">
+						</td>
+					</tr>
+						
+					</tfoot>
+				</form>
+			</table>
+			<p class="copyright">
+				<span>Copyright © 2003～2008</span>  版权所有 青岛家教网
+			</p>
+		</div>
+	</div>
+</body>
+</html>

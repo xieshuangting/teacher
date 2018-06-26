@@ -1,0 +1,148 @@
+/*reset.css*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+input,button,textarea{
+	outline: none;
+	padding-left: 5px;
+}
+textarea{
+	padding: 5px;
+}
+
+/*页面背景*/
+body{
+	background: url(beijing.gif);
+}
+
+/*主体容器*/
+.wrapper{
+	padding: 10px 35px;
+	width: 640px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: white;
+	border-radius: 30px;
+}
+
+/*public css*/
+.light-red{
+	color: #FF0000;
+}
+.text-blue{
+	color: #00f;
+}
+/*文本加粗*/
+.text-strong{
+	font-weight: bold;
+
+}
+
+/*导航菜单*/
+header{
+	position: relative;
+}
+header nav{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/*？
+？
+？*/
+
+header nav a{
+	color: rgb(255, 0, 153);
+	font-size: 12px;
+	line-height: 150%;
+	margin-right: 5px;
+}
+header nav a:hover{
+	color: rgb(255, 0, 0);
+}
+
+/*注册主体部分样式*/
+
+.content table.parent-table {
+	width: 640px;
+	font-size: 12px;
+	line-height: 150%;
+	color: #333;
+	border:1px solid grey;
+	border-collapse: collapse;
+}
+.content table.parent-table  caption{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center ;
+}
+.content .register-msg {
+	text-align: center !important;
+	border-spacing: 2px;
+}
+.content table.parent-table  td{
+	border:1px solid grey;
+	padding: 5px;
+}
+/*每行的第一个单元格为右对齐*/
+.content .parent-table td:nth-of-type(1){
+    text-align: right;
+}
+
+/*表格二级标题*/
+.content table.parent-table  h2{
+	color: rgb(0,51,153);
+	font-size: 13px;
+	line-height: 150%;
+	font-weight: bold;
+}
+
+.content .table-title2{
+	background-color: #EEEEEE;
+	text-align: left !important;
+}
+
+
+/*可辅导项目表格*/
+.content .sub-table{
+	width: 100%;
+}
+ .content .lessons-num .sub-table td{
+ 	text-align: left;
+ 	border:none;
+ }
+
+ /*表格提交按钮*/
+
+.content .sumbit-table{
+ 	height: 80px;
+ 	line-height: 80px;
+ 	text-align: center !important;
+}
+.content .sumbit-table input{
+	height: 20px;
+	width:75px;
+}
+
+/*底部版权信息*/
+.content .copyright{
+	text-align: center;
+	font-size: 12px;
+	line-height: 150%;
+	margin-top: 5px;
+}
+.content .copyright span{
+	color: rgb(102, 102, 102);
+}
